@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/package",
   "name": "project-preset-with-parcel",
   "version": "1.0.0",
-  "description": "project preset with parcel by junproger",
+  "description": "project preset with parcel bundler by Junproger",
   "keywords": [
     "preset",
     "template",
@@ -11,7 +11,7 @@
   ],
   "homepage": "https://github.com/junproger/project-preset-with-parcel",
   "repository": "git+https://github.com/junproger/project-preset-with-parcel.git",
-  "author": "JunProger <junproger@gmail.com> (https://github.com/junproger)",
+  "author": "Junproger <junproger@gmail.com> (https://github.com/junproger)",
   "private": true,
   "license": "ISC",
   "source": "./source/index.html",
@@ -22,12 +22,14 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
+    "check": "tsc --noEmit",
     "start": "parcel serve --open",
     "build": "parcel build --public-url ./",
     "watch": "parcel watch ./source/index.html"
   },
   "dependencies": {},
   "devDependencies": {
-    "parcel": "^2.9.3"
+    "parcel": "^2.9.3",
+    "typescript": "^5.1.6"
   }
 }
