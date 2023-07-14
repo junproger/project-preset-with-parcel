@@ -4,10 +4,12 @@
   "version": "1.0.0",
   "description": "project preset with parcel bundler by Junproger",
   "keywords": [
+    "parcel",
+    "bundler",
+    "typescript",
     "preset",
     "template",
-    "parcel",
-    "typescript"
+    "boilerplate"
   ],
   "homepage": "https://github.com/junproger/project-preset-with-parcel",
   "repository": "git+https://github.com/junproger/project-preset-with-parcel.git",
@@ -22,7 +24,9 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "check": "tsc --noEmit",
+    "types": "tsc --noEmit",
+    "check": "prettier --check source/",
+    "format": "prettier --write source/",
     "start": "parcel serve --open",
     "build": "parcel build --public-url ./",
     "watch": "parcel watch ./source/index.html"
@@ -30,6 +34,7 @@
   "dependencies": {},
   "devDependencies": {
     "parcel": "^2.9.3",
+    "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   }
 }
