@@ -1,21 +1,22 @@
 # project-preset-with-parcel
 
-Project-preset-with-parcel is a boilerplate for quick start of your awesome project with parcel bundler and typescript
+Project-preset-with-parcel is a boilerplate for quick start of your awesome project with [parcel bundler](https://parceljs.org/docs/) and [typescript](https://www.typescriptlang.org/docs/) by Junproger
 
-Repo: [link](https://github.com/junproger/project-preset-with-parcel)
+GitHub Repository: [link](https://github.com/junproger/project-preset-with-parcel)
 
 ## Stack
 
-- **NodeJS**
-- **Parcel**
-- **ESLint**
-- **Prettier**
-- **JavaScript**
-- **TypeScript**
-- **ES6 Modules**
-- **CSS modules**
-- SASS (optional)
-- React (optional)
+- **NodeJS** [nodejs](https://nodejs.org/en/docs)
+- **Parcel** [parcel](https://parceljs.org/docs/)
+- **ESLint** [eslint](https://eslint.org/docs/latest/)
+- **Prettier** [prettier](https://prettier.io/docs/en/index.html)
+- **JavaScript** [javascript](https://parceljs.org/languages/javascript/)
+- **TypeScript** [typescript](https://parceljs.org/languages/typescript/)
+- **TypeScript-ESlint** [typescript-eslint](https://typescript-eslint.io/getting-started/)
+- **ES6 Modules** [es-modules](https://parceljs.org/languages/javascript/#es-modules)
+- **CSS modules** [css-modules](https://parceljs.org/languages/css/#css-modules)
+- SASS (optional) [sass/scss](https://parceljs.org/languages/sass/)
+- React (optional) [react-js](https://parceljs.org/recipes/react/)
 
 ## Packages
 
