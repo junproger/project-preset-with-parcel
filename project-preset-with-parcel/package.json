@@ -3,14 +3,31 @@
   "name": "project-preset-with-parcel",
   "version": "1.0.0",
   "description": "project preset with parcel by junproger",
-  "keywords": ["preset", "template", "parcel", "typescript"],
+  "keywords": [
+    "preset",
+    "template",
+    "parcel",
+    "typescript"
+  ],
   "homepage": "https://github.com/junproger/project-preset-with-parcel",
   "repository": "git+https://github.com/junproger/project-preset-with-parcel.git",
   "author": "JunProger <junproger@gmail.com> (https://github.com/junproger)",
   "private": true,
   "license": "ISC",
   "source": "./source/index.html",
-  "scripts": {},
+  "targets": {
+    "default": {
+      "distDir": "./build"
+    }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel serve --open",
+    "build": "parcel build --public-url ./",
+    "watch": "parcel watch ./source/index.html"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
 }
