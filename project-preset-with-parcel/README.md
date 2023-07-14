@@ -27,7 +27,7 @@ GitHub Repository: [link](https://github.com/junproger/project-preset-with-parce
 - "eslint-plugin-prettier": "^4.2.1",
 - "eslint-config-prettier": "^8.8.0",
 - "parcel": "^2.9.3",
-- "prettier": "^2.8.8",
+- "prettier": "^3.0.0",
 - "typescript": "^5.1.6",
 
 ## Folders
