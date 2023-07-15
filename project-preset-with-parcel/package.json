@@ -24,15 +24,21 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "types": "tsc --noEmit",
+    "typing": "tsc --noEmit",
     "checkup": "prettier --check source/",
     "format": "prettier --write source/",
     "start": "parcel serve --open",
     "build": "parcel build --public-url ./",
-    "watch": "parcel watch ./source/index.html"
+    "watch": "parcel watch ./source/index.html",
+    "lint": "eslint \"./source/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint \"./source/**/*.{js,jsx,ts,tsx}\" --fix"
   },
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^5.0.0",
     "parcel": "^2.9.3",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"
