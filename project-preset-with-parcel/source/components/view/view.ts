@@ -1,9 +1,9 @@
-import hello from './hello.png';
+import hello from '../../assets/hello.png';
+import { component } from '../../types/component';
 
-export const render = (): HTMLDivElement => {
-  const element: HTMLDivElement = document.createElement('div');
+export const view: component = () => {
+  const element: HTMLElement = document.createElement('div');
   element.classList.add('title');
-  // Add the image to our existing div
   const myImage: HTMLImageElement = new Image(256, 256);
   myImage.src = hello;
   element.append(myImage);

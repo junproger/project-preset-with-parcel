@@ -1,18 +1,21 @@
-body {
+body,
+.root {
   height: 100%;
   background-color: black;
-  background-image: url('./parcel.png');
+  background-image: url('./assets/parcel.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   padding: 20px;
 }
+
 h1 {
   color: indigo;
   font-size: 6rem;
   font-weight: bold;
   text-align: center;
 }
+
 .title {
   color: chocolate;
   font-size: 4rem;
