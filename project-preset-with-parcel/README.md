@@ -9,6 +9,7 @@ GitHub Repository: [link](https://github.com/junproger/project-preset-with-parce
 - **NodeJS** [nodejs](https://nodejs.org/en/docs)
 - **Parcel** [parcel](https://parceljs.org/docs/)
 - **ESLint** [eslint](https://eslint.org/docs/latest/)
+- **Import JS** [import-js](https://github.com/import-js)
 - **Prettier** [prettier](https://prettier.io/docs/en/index.html)
 - **JavaScript** [javascript](https://parceljs.org/languages/javascript/)
 - **TypeScript** [typescript](https://parceljs.org/languages/typescript/)
@@ -24,6 +25,7 @@ GitHub Repository: [link](https://github.com/junproger/project-preset-with-parce
 - "@typescript-eslint/parser": "^6.0.0",
 - "eslint": "^8.45.0",
 - "eslint-config-prettier": "^8.8.0",
+- "eslint-import-resolver-typescript": "^3.5.5",
 - "eslint-plugin-import": "^2.27.5",
 - "eslint-plugin-prettier": "^5.0.0",
 - "parcel": "^2.9.3",
