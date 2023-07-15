@@ -20,12 +20,12 @@ GitHub Repository: [link](https://github.com/junproger/project-preset-with-parce
 
 ## Packages
 
-- "@typescript-eslint/eslint-plugin": "^5.60.1",
-- "@typescript-eslint/parser": "^5.60.1",
-- "eslint": "^8.43.0",
-- "eslint-plugin-import": "^2.27.5",
-- "eslint-plugin-prettier": "^4.2.1",
+- "@typescript-eslint/eslint-plugin": "^6.0.0",
+- "@typescript-eslint/parser": "^6.0.0",
+- "eslint": "^8.45.0",
 - "eslint-config-prettier": "^8.8.0",
+- "eslint-plugin-import": "^2.27.5",
+- "eslint-plugin-prettier": "^5.0.0",
 - "parcel": "^2.9.3",
 - "prettier": "^3.0.0",
 - "typescript": "^5.1.6",
