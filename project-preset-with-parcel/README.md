@@ -6,18 +6,18 @@ GitHub Repository: [link](https://github.com/junproger/project-preset-with-parce
 
 ## Stack
 
-- **NodeJS** [nodejs](https://nodejs.org/en/docs)
-- **Parcel** [parcel](https://parceljs.org/docs/)
-- **ESLint** [eslint](https://eslint.org/docs/latest/)
-- **Import JS** [import-js](https://github.com/import-js)
-- **Prettier** [prettier](https://prettier.io/docs/en/index.html)
-- **JavaScript** [javascript](https://parceljs.org/languages/javascript/)
-- **TypeScript** [typescript](https://parceljs.org/languages/typescript/)
-- **TypeScript-ESlint** [typescript-eslint](https://typescript-eslint.io/getting-started/)
-- **ES6 Modules** [es-modules](https://parceljs.org/languages/javascript/#es-modules)
-- **CSS modules** [css-modules](https://parceljs.org/languages/css/#css-modules)
-- SASS (optional) [sass/scss](https://parceljs.org/languages/sass/)
-- React (optional) [react-js](https://parceljs.org/recipes/react/)
+- **NodeJS** -> [nodejs](https://nodejs.org/en/docs)
+- **Parcel** -> [parcel](https://parceljs.org/docs/)
+- **ESLint** -> [eslint](https://eslint.org/docs/latest/)
+- **Import JS** -> [import-js](https://github.com/import-js)
+- **Prettier** -> [prettier](https://prettier.io/docs/en/index.html)
+- **JavaScript** -> [javascript](https://parceljs.org/languages/javascript/)
+- **TypeScript** -> [typescript](https://parceljs.org/languages/typescript/)
+- **TypeScript-ESlint** -> [typescript-eslint](https://typescript-eslint.io/getting-started/)
+- **ES6 Modules** -> [es-modules](https://parceljs.org/languages/javascript/#es-modules)
+- **CSS modules** -> [css-modules](https://parceljs.org/languages/css/#css-modules)
+- SASS (optional) -> [sass/scss](https://parceljs.org/languages/sass/)
+- React (optional) -> [react-js](https://parceljs.org/recipes/react/)
 
 ## Packages
 
@@ -35,13 +35,30 @@ GitHub Repository: [link](https://github.com/junproger/project-preset-with-parce
 ## Folders
 
 Source
-: ./source
+: ./assets
+: ./components
+: ./constants
+: ./declares
+: ./types
 
-Build
-: ./build
+## Source
 
-Dist
-: ./dist
+- index.html as the entry point for Parcel, has links to favicon, styles and script
+- index.ts as the index script
+- index.css as the global styles
+- root.ts as the root element constant
+- myApp.ts as the main application script
+- appView.ts as the application component
+- ViewType.ts as the type aliase of the appView Component
+- assets.d.ts as the declaration type for png images
+- favicon.ico as the favicon
+- hello.png as the imported image
+- parcel.png as the background image
+
+## Reference
+
+[MICROSOFT TYPESCRIPT CODING GUIDELINES ENG](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
+[GOOGLE CODING TYPESCRIPT STYLEGUIDE RUS](https://github.com/olegbarabanov/google-typescript-style-guide-ru)
 
 ## License
 
