@@ -35,11 +35,16 @@ GitHub Repository: [link](https://github.com/junproger/project-preset-with-parce
 ## Folders
 
 Source
-: ./assets
-: ./components
-: ./constants
-: ./declares
-: ./types
+
+  |-- ./assets
+
+  |-- ./components
+
+  |-- ./constants
+
+  |-- ./declares
+
+  |-- ./types
 
 ## Source
 
@@ -58,6 +63,7 @@ Source
 ## Reference
 
 [MICROSOFT TYPESCRIPT CODING GUIDELINES ENG](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
+
 [GOOGLE CODING TYPESCRIPT STYLEGUIDE RUS](https://github.com/olegbarabanov/google-typescript-style-guide-ru)
 
 ## License
