@@ -7,6 +7,7 @@ body,
   background-repeat: no-repeat;
   background-size: contain;
   padding: 20px;
+  margin: 0;
 }
 
 h1 {
@@ -14,6 +15,11 @@ h1 {
   font-size: 6rem;
   font-weight: bold;
   text-align: center;
+}
+
+.hello {
+  width: 256px;
+  height: 256px;
 }
 
 .title {
