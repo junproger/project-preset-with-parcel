@@ -2,7 +2,7 @@
 
 Project-preset-with-parcel is a boilerplate for quick start of your awesome project with [parcel bundler](https://parceljs.org/docs/) and [typescript](https://www.typescriptlang.org/docs/) by Junproger
 
-GitHub Repository: [link](https://github.com/junproger/project-preset-with-parcel)
+Parcel Preset: [link](https://github.com/junproger/project-preset-with-parcel)
 
 ## Stack
 
@@ -16,8 +16,9 @@ GitHub Repository: [link](https://github.com/junproger/project-preset-with-parce
 - **TypeScript-ESlint** -> [typescript-eslint](https://typescript-eslint.io/getting-started/)
 - **ES6 Modules** -> [es-modules](https://parceljs.org/languages/javascript/#es-modules)
 - **CSS modules** -> [css-modules](https://parceljs.org/languages/css/#css-modules)
+- React JS (optional) -> [react-js](https://parceljs.org/recipes/react/)
 - SASS (optional) -> [sass/scss](https://parceljs.org/languages/sass/)
-- React (optional) -> [react-js](https://parceljs.org/recipes/react/)
+- CLSX (optional) -> [clsx](https://github.com/lukeed/clsx)
 
 ## Packages
 
@@ -61,6 +62,10 @@ Source
 - parcel.png as the background image
 
 ## Reference
+
+[Definitely Typed ENG](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.md)
+
+[Definitely Typed RUS](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.ru.md)
 
 [MICROSOFT TYPESCRIPT CODING GUIDELINES ENG](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
 
